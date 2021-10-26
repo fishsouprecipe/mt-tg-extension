@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+
+.main-form {
+    background-color: #292A2D;
+}
+
+
+.main-form__item {
+    padding: 20px;
+}
+
+
+.item__label {
+    font-size: 16px;
+    color: whitesmoke;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.item__input {
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background-color: #2A2D2E;
+}

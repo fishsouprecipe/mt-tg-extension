@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.1",
+  "author": "fishsouprecipe",
+  "name": "Monkey Type Telegram",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://monkeytype.com/"
+      ],
+      "js": [
+        "content_scripts/client.js",
+        "content_scripts/timers_assassin.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "http://*/",
+    "https://*/"
+  ]
+}

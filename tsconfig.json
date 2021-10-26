@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "strict": true,
+    "moduleResolution": "Node",
+    "target": "ES5"
+  },
+  "include": [
+    "./src/*"
+  ]
+}

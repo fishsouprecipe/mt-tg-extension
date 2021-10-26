@@ -2,4 +2,4 @@
 ![Result post example](/assets/tg-message-example.png)
 
 ## Summary in the end of every month
-![Summary example](/assets/example.png)
+![Summary example](/assets/summary.png)
